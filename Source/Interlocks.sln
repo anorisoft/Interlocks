@@ -1,0 +1,43 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interlocks", "Interlocks\Interlocks.csproj", "{B45C327C-239E-459E-93C9-2BE0A4EA6101}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build Items", "Build Items", "{A2D47180-F69C-4487-86D2-6122DA604254}"
+	ProjectSection(SolutionItems) = preProject
+		..\build.cake = ..\build.cake
+		Interlocks.nuspec = Interlocks.nuspec
+		..\README.md = ..\README.md
+		..\RELEASES.md = ..\RELEASES.md
+		..\Run.cake = ..\Run.cake
+		..\Run.cmd = ..\Run.cmd
+		..\RunNuGet.cake = ..\RunNuGet.cake
+		..\RunNuGet.cmd = ..\RunNuGet.cmd
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools Items", "Tools Items", "{23446B76-2F8D-4E28-B5BE-5978EC09647F}"
+	ProjectSection(SolutionItems) = preProject
+		..\Tools\clone-global-settings.cmd = ..\Tools\clone-global-settings.cmd
+		..\Tools\clone-resources.cmd = ..\Tools\clone-resources.cmd
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B45C327C-239E-459E-93C9-2BE0A4EA6101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B45C327C-239E-459E-93C9-2BE0A4EA6101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B45C327C-239E-459E-93C9-2BE0A4EA6101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B45C327C-239E-459E-93C9-2BE0A4EA6101}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4ca156e8-9c74-442b-89f3-e3cbdcdef924}
+	EndGlobalSection
+EndGlobal
