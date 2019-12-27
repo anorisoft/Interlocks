@@ -7,3 +7,6 @@
 [submodule "Tools/Resources"]
 	path = Tools/Resources
 	url = https://github.com/anorisoft/Cake.Resources.git
+[submodule "Tools/RepositorySeeder"]
+	path = Tools/RepositorySeeder
+	url = https://github.com/anorisoft/RepositorySeeder.git

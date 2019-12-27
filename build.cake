@@ -11,4 +11,4 @@ BuildParameters.SetParameters(
 
 BuildParameters.PrintParameters(Context);
 
-ToolSettings.SetToolSettings(context: Context, buildMSBuildToolVersion: MSBuildToolVersion.VS2019 );
+ToolSettings.SetToolSettings(context: Context);

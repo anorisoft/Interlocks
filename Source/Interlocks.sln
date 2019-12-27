@@ -1,11 +1,10 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.29609.76
+VisualStudioVersion = 16.0.29209.62
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interlocks", "Interlocks\Interlocks.csproj", "{B45C327C-239E-459E-93C9-2BE0A4EA6101}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interlocks", "Interlocks\Interlocks.csproj", "{A80CEE0E-EA38-49CE-9559-2C18436491B8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build Items", "Build Items", "{A2D47180-F69C-4487-86D2-6122DA604254}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build Items", "Build Items", "{2820C85D-A7B2-424F-B663-26C2E05F097A}"
 	ProjectSection(SolutionItems) = preProject
 		..\build.cake = ..\build.cake
 		Interlocks.nuspec = Interlocks.nuspec
@@ -17,7 +16,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build Items", "Build Items"
 		..\RunNuGet.cmd = ..\RunNuGet.cmd
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools Items", "Tools Items", "{23446B76-2F8D-4E28-B5BE-5978EC09647F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools Items", "Tools Items", "{0B72CC8F-572D-4A06-850A-D43B167657E4}"
 	ProjectSection(SolutionItems) = preProject
 		..\Tools\clone-global-settings.cmd = ..\Tools\clone-global-settings.cmd
 		..\Tools\clone-resources.cmd = ..\Tools\clone-resources.cmd
@@ -29,15 +28,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B45C327C-239E-459E-93C9-2BE0A4EA6101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B45C327C-239E-459E-93C9-2BE0A4EA6101}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B45C327C-239E-459E-93C9-2BE0A4EA6101}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B45C327C-239E-459E-93C9-2BE0A4EA6101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A80CEE0E-EA38-49CE-9559-2C18436491B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A80CEE0E-EA38-49CE-9559-2C18436491B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A80CEE0E-EA38-49CE-9559-2C18436491B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A80CEE0E-EA38-49CE-9559-2C18436491B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4ca156e8-9c74-442b-89f3-e3cbdcdef924}
+		SolutionGuid = {433c446f-4aa5-48da-8155-046f0432544b}
 	EndGlobalSection
 EndGlobal
