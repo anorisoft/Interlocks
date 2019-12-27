@@ -9,7 +9,7 @@ BuildParameters.SetParameters(
 	context: Context,
 	buildSystem: BuildSystem,
 	title: "Interlocks",
-	shouldRunDupFinder: true,
+	shouldRunDupFinder: false,
 	shouldRunDotNetCorePack: true
 );
 
