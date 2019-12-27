@@ -1,27 +1,30 @@
-<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFrameworks>netcoreapp3.1;net472;net48</TargetFrameworks>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Version>0.0.0</Version>
     <AssemblyTitle>Interlocks</AssemblyTitle>
-    <Authors></Authors>
+    <Authors>Martin Egli</Authors>
     <PackageId>Interlocks</PackageId>
-    <PackageLicenseUrl></PackageLicenseUrl>
-    <PackageProjectUrl></PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/anorisoft/Interlocks/LICENCE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/anorisoft/Interlocks</PackageProjectUrl>
     <Copyright></Copyright>
     <Description></Description>
-    <Company></Company>
+    <Company>Anori Soft</Company>
     <Product></Product>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes></PackageReleaseNotes>
     <NeutralLanguage></NeutralLanguage>
     <PackageTags></PackageTags>
-    <RepositoryUrl></RepositoryUrl>
+    <RepositoryUrl>https://github.com/anorisoft/Interlocks</RepositoryUrl>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+    <SignAssembly>true</SignAssembly>
     <DelaySign>false</DelaySign>
+    <PublicSign>true</PublicSign>
+    <AssemblyOriginatorKeyFile>..\public.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <Choose>
@@ -38,9 +41,10 @@
       </PropertyGroup>
     </Otherwise>
   </Choose>
-
+  
   <ItemGroup>
     <AdditionalFiles Include="stylecop.json" />
+	<AdditionalFiles Include="..\public.snk" />
   </ItemGroup>
 
   <ItemGroup>
@@ -57,9 +61,10 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="SonarAnalyzer.CSharp" Version="8.1.0.13383">
+	 <PackageReference Include="SonarAnalyzer.CSharp" Version="8.1.0.13383">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
   </ItemGroup>
+
 </Project>
