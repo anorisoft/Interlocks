@@ -41,4 +41,4 @@ cache:
 
 
 image:
-  - Visual Studio 2019- Tools -> build.ps1
+  - Visual Studio 2019
