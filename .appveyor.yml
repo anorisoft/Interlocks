@@ -38,3 +38,7 @@ branches:
 #---------------------------------#
 cache:
 - Tools -> build.ps1
+
+
+image:
+  - Visual Studio 2019- Tools -> build.ps1
