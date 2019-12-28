@@ -11,7 +11,7 @@ BuildParameters.SetParameters(
 	title: "Interlocks",
 	shouldRunDupFinder: false,
 	shouldRunDotNetCorePack: true,
-	repositoryOwner: "Anorisoft"
+	repositoryOwner: "anorisoft"
 );
 
 BuildParameters.PrintParameters(Context);
