@@ -17,7 +17,3 @@ BuildParameters.SetParameters(
 BuildParameters.PrintParameters(Context);
 
 ToolSettings.SetToolSettings(context: Context);
-
-Context.Information("Repo [{0}]", string.Concat(repositoryOwner, "/", repositoryName));
-Context.Information("Appveyor Repo [{0}]", BuildProvider.Repository.Name);
-
