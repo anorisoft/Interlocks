@@ -7,7 +7,6 @@ build_script:
 
 # Install
 install:
-##- ps: build/ci/appveyor/installDotnetCore3.1.ps1
 #  - git submodule update --init --recursive+ 
 #  - git submodule sync
 #  - git submodule update --init --recursive
@@ -39,7 +38,3 @@ branches:
 #---------------------------------#
 cache:
 - Tools -> build.ps1
-
-
-image:
-  - Visual Studio 2019
