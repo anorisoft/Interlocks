@@ -2,7 +2,6 @@
 #addin nuget:?package=Newtonsoft.Json&version=11.0.2
 
 #load ./Tools/GlobalSettings/Addins.cake
-GlobalSettings.PrintGlobalSettings(Context);
 
 Environment.SetVariableNames();
 
@@ -16,5 +15,8 @@ BuildParameters.SetParameters(
 );
 
 BuildParameters.PrintParameters(Context);
+
+GlobalSettings.PrintGlobalSettings(Context);
+
 
 ToolSettings.SetToolSettings(context: Context);
