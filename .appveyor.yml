@@ -38,7 +38,8 @@ branches:
 #  Build Cache                    #
 #---------------------------------#
 cache:
-- Tools -> build.ps1
+    - Tools -> Tools\GlobalSettings\Addins.cake
+    #- Tools -> build.ps1
 
 
 image:
