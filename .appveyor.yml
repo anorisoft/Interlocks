@@ -18,6 +18,7 @@ clone_script:
       && cd %APPVEYOR_BUILD_FOLDER%
       && git checkout -qf %APPVEYOR_REPO_COMMIT%
       && git submodule update --force --recursive --init --remote
+      && type Tools\GlobalSettings\Addins.cake
       
 # Tests
 test: off
