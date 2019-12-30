@@ -7,7 +7,6 @@
     <AssemblyTitle>Interlocks</AssemblyTitle>
     <Authors>Martin Egli</Authors>
     <PackageId>Interlocks</PackageId>
-    <PackageLicenseUrl>https://github.com/anorisoft/Interlocks/LICENCE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/anorisoft/Interlocks</PackageProjectUrl>
     <Copyright></Copyright>
     <Description></Description>
@@ -25,6 +24,7 @@
     <DelaySign>false</DelaySign>
     <PublicSign>true</PublicSign>
     <AssemblyOriginatorKeyFile>..\public.snk</AssemblyOriginatorKeyFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <Choose>
@@ -41,10 +41,10 @@
       </PropertyGroup>
     </Otherwise>
   </Choose>
-  
+
   <ItemGroup>
     <AdditionalFiles Include="stylecop.json" />
-	<AdditionalFiles Include="..\public.snk" />
+    <AdditionalFiles Include="..\public.snk" />
   </ItemGroup>
 
   <ItemGroup>
@@ -61,10 +61,16 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-	 <PackageReference Include="SonarAnalyzer.CSharp" Version="8.1.0.13383">
+    <PackageReference Include="SonarAnalyzer.CSharp" Version="8.1.0.13383">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 </Project>

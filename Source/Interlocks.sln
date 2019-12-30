@@ -1,24 +1,22 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 16
+# Visual Studio Version 16
 VisualStudioVersion = 16.0.29209.62
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interlocks", "Interlocks\Interlocks.csproj", "{70a5a027-5c0f-4025-81fd-e6a2b04d8e02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interlocks", "Interlocks\Interlocks.csproj", "{70A5A027-5C0F-4025-81FD-E6A2B04D8E02}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build Items", "Build Items", "{0aea3600-63e7-456d-89ee-fd018ef24e0d}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build Items", "Build Items", "{0AEA3600-63E7-456D-89EE-FD018EF24E0D}"
 	ProjectSection(SolutionItems) = preProject
 		..\build.cake = ..\build.cake
+		Interlocks.nuspec = Interlocks.nuspec
 		..\README.md = ..\README.md
 		..\RELEASES.md = ..\RELEASES.md
 		..\Run.cake = ..\Run.cake
 		..\Run.cmd = ..\Run.cmd
 		..\RunNuGet.cake = ..\RunNuGet.cake
 		..\RunNuGet.cmd = ..\RunNuGet.cmd
-		..\Source\Interlocks.nuspec = ..\Source\Interlocks.nuspec
-
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools Items", "Tools Items", "{359a4580-37aa-4528-a310-99914288b244}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools Items", "Tools Items", "{359A4580-37AA-4528-A310-99914288B244}"
 	ProjectSection(SolutionItems) = preProject
 		..\Tools\clone-global-settings.cmd = ..\Tools\clone-global-settings.cmd
 		..\Tools\clone-resources.cmd = ..\Tools\clone-resources.cmd
@@ -30,10 +28,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{70a5a027-5c0f-4025-81fd-e6a2b04d8e02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{70a5a027-5c0f-4025-81fd-e6a2b04d8e02}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{70a5a027-5c0f-4025-81fd-e6a2b04d8e02}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{70a5a027-5c0f-4025-81fd-e6a2b04d8e02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70A5A027-5C0F-4025-81FD-E6A2B04D8E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70A5A027-5C0F-4025-81FD-E6A2B04D8E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70A5A027-5C0F-4025-81FD-E6A2B04D8E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70A5A027-5C0F-4025-81FD-E6A2B04D8E02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
