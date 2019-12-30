@@ -6,12 +6,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interlocks", "Interlocks\In
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build Items", "Build Items", "{AC928F2B-A260-46F5-8580-A7C12A9B7FD1}"
 	ProjectSection(SolutionItems) = preProject
+		..\.appveyor.yml = ..\.appveyor.yml
 		..\build.cake = ..\build.cake
 		Interlocks.nuspec = Interlocks.nuspec
+		..\LICENSE = ..\LICENSE
 		..\README.md = ..\README.md
 		..\RELEASES.md = ..\RELEASES.md
 		..\Run.cake = ..\Run.cake
 		..\Run.cmd = ..\Run.cmd
+		..\RunAppVeyor.cmd = ..\RunAppVeyor.cmd
 		..\RunNuGet.cake = ..\RunNuGet.cake
 		..\RunNuGet.cmd = ..\RunNuGet.cmd
 	EndProjectSection
