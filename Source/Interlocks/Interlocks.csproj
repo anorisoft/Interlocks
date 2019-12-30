@@ -6,8 +6,8 @@
     <Version>0.0.0</Version>
     <AssemblyTitle>Interlocks</AssemblyTitle>
     <Authors>Martin Egli</Authors>
-    <PackageId>Interlocks</PackageId>
-    <PackageLicenseUrl>https://github.com/anorisoft/Interlocks/LICENCE</PackageLicenseUrl>
+    <PackageId>Anorisoft.Interlocks</PackageId>
+    <PackageLicenseUrl></PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/anorisoft/Interlocks</PackageProjectUrl>
     <Copyright></Copyright>
     <Description></Description>
