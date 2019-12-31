@@ -1,0 +1,41 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Interlocks
+  name: Interlocks
+  href: api/Interlocks.html
+  commentId: N:Interlocks
+  fullName: Interlocks
+  nameWithType: Interlocks
+- uid: Interlocks.SingleSetable
+  name: SingleSetable
+  href: api/Interlocks.SingleSetable.html
+  commentId: T:Interlocks.SingleSetable
+  fullName: Interlocks.SingleSetable
+  nameWithType: SingleSetable
+- uid: Interlocks.SingleSetable.Set
+  name: Set()
+  href: api/Interlocks.SingleSetable.html#Interlocks_SingleSetable_Set
+  commentId: M:Interlocks.SingleSetable.Set
+  fullName: Interlocks.SingleSetable.Set()
+  nameWithType: SingleSetable.Set()
+- uid: Interlocks.SingleSetable.Set*
+  name: Set
+  href: api/Interlocks.SingleSetable.html#Interlocks_SingleSetable_Set_
+  commentId: Overload:Interlocks.SingleSetable.Set
+  isSpec: "True"
+  fullName: Interlocks.SingleSetable.Set
+  nameWithType: SingleSetable.Set
+- uid: Interlocks.SingleSetable.Value
+  name: Value
+  href: api/Interlocks.SingleSetable.html#Interlocks_SingleSetable_Value
+  commentId: P:Interlocks.SingleSetable.Value
+  fullName: Interlocks.SingleSetable.Value
+  nameWithType: SingleSetable.Value
+- uid: Interlocks.SingleSetable.Value*
+  name: Value
+  href: api/Interlocks.SingleSetable.html#Interlocks_SingleSetable_Value_
+  commentId: Overload:Interlocks.SingleSetable.Value
+  isSpec: "True"
+  fullName: Interlocks.SingleSetable.Value
+  nameWithType: SingleSetable.Value
