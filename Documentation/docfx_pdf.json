@@ -12,7 +12,7 @@
             "**/bin/**",
             "_site/**"
           ],
-          "src": ".."
+          "src": "../"
         }
       ],
       "dest": "../BuildArtifacts/Documentation/api"
@@ -72,22 +72,15 @@
   },
   "pdf": {
     "content": [
-      {
+            {
         "files": [
-          "toc.yml",
-          "toc.md"
-        ]
-      },
-      {
-        "files": [
-          "BuildArtifacts/Documentation/api/**.yml",
-          "BuildArtifacts/Documentation/api/index.md"
+          "api/**.yml",
+          "api-vb/**.yml"
         ],
         "exclude": [
           "**/toc.yml",
           "**/toc.md"
-        ],
-        "src": ".."
+        ]
       },
       {
         "files": [
@@ -104,6 +97,9 @@
           "**/toc.yml",
           "**/toc.md"
         ]
+      },
+      {
+        "files": "pdf/toc.yml"
       }
     ],
     "resource": [

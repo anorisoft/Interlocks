@@ -2,6 +2,6 @@
 rem ***************************************************************************
 rem * Build Script for Debug Run
 rem ***************************************************************************
-powershell .\Tools\Resources\build.ps1 -Script Run.cake -Verbosity Diagnostic -Configuration "Debug"
-rem powershell .\Tools\Resources\build.ps1 -Script Run.cake -Configuration "Debug"
+rem powershell .\Tools\Resources\build.ps1 -Script Run.cake -Verbosity Diagnostic -Configuration "Debug"
+powershell .\Tools\Resources\build.ps1 -Script Run.cake -Configuration "Debug"
 pause

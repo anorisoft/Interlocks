@@ -22,7 +22,11 @@
       {
         "files": [
           "api/**.yml",
-          "api/index.md"
+          "api-vb/**.yml"
+        ],
+        "exclude": [
+          "**/toc.yml",
+          "**/toc.md"
         ]
       },
       {
@@ -30,12 +34,19 @@
           "articles/**.md",
           "articles/**/toc.yml",
           "toc.yml",
-          "*.md"
+          "*.md",
+          "pdf/*"
         ],
         "exclude": [
-          "obj/**",
-          "_site/**"
+          "**/bin/**",
+          "**/obj/**",
+          "_site_pdf/**",
+          "**/toc.yml",
+          "**/toc.md"
         ]
+      },
+      {
+        "files": "toc_pdf.yml"
       }
     ],
     "resource": [
